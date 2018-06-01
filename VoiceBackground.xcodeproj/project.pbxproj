@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C24D0846EAD785A5A17204A /* libPods-VoiceBackground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F7FB123AB825C88CF0A3D /* libPods-VoiceBackground.a */; };
+		E6E9D49120C14C86002FDCE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D49020C14C86002FDCE0 /* AppDelegate.m */; };
+		E6E9D49420C14C86002FDCE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D49320C14C86002FDCE0 /* ViewController.m */; };
+		E6E9D49720C14C86002FDCE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E9D49520C14C86002FDCE0 /* Main.storyboard */; };
+		E6E9D49A20C14C86002FDCE0 /* VoiceBackground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D49820C14C86002FDCE0 /* VoiceBackground.xcdatamodeld */; };
+		E6E9D49C20C14C87002FDCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E9D49B20C14C87002FDCE0 /* Assets.xcassets */; };
+		E6E9D49F20C14C87002FDCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E9D49D20C14C87002FDCE0 /* LaunchScreen.storyboard */; };
+		E6E9D4A220C14C87002FDCE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D4A120C14C87002FDCE0 /* main.m */; };
+		E6E9D4AC20C14C87002FDCE0 /* VoiceBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D4AB20C14C87002FDCE0 /* VoiceBackgroundTests.m */; };
+		E6E9D4B720C14C87002FDCE0 /* VoiceBackgroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D4B620C14C87002FDCE0 /* VoiceBackgroundUITests.m */; };
+		E6E9D4C820C14CDD002FDCE0 /* KELPSpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E9D4C620C14CDD002FDCE0 /* KELPSpeechSynthesizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6E9D4A820C14C87002FDCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E9D48420C14C85002FDCE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E9D48B20C14C85002FDCE0;
+			remoteInfo = VoiceBackground;
+		};
+		E6E9D4B320C14C87002FDCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E9D48420C14C85002FDCE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E9D48B20C14C85002FDCE0;
+			remoteInfo = VoiceBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB7FA152A1EE8589A83BCA0 /* Pods-VoiceBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceBackground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceBackground/Pods-VoiceBackground.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3F7FB123AB825C88CF0A3D /* libPods-VoiceBackground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceBackground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95019466DE0F7D58F83F286A /* Pods-VoiceBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceBackground.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceBackground/Pods-VoiceBackground.release.xcconfig"; sourceTree = "<group>"; };
+		E6E9D48C20C14C85002FDCE0 /* VoiceBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9D48F20C14C85002FDCE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6E9D49020C14C86002FDCE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6E9D49220C14C86002FDCE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6E9D49320C14C86002FDCE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6E9D49620C14C86002FDCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6E9D49920C14C86002FDCE0 /* VoiceBackground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiceBackground.xcdatamodel; sourceTree = "<group>"; };
+		E6E9D49B20C14C87002FDCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E9D49E20C14C87002FDCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6E9D4A020C14C87002FDCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E9D4A120C14C87002FDCE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E9D4A720C14C87002FDCE0 /* VoiceBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9D4AB20C14C87002FDCE0 /* VoiceBackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceBackgroundTests.m; sourceTree = "<group>"; };
+		E6E9D4AD20C14C87002FDCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E9D4B220C14C87002FDCE0 /* VoiceBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9D4B620C14C87002FDCE0 /* VoiceBackgroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceBackgroundUITests.m; sourceTree = "<group>"; };
+		E6E9D4B820C14C87002FDCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E9D4C420C14CB3002FDCE0 /* VoiceBackground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoiceBackground.entitlements; sourceTree = "<group>"; };
+		E6E9D4C620C14CDD002FDCE0 /* KELPSpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KELPSpeechSynthesizer.m; sourceTree = "<group>"; };
+		E6E9D4C720C14CDD002FDCE0 /* KELPSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KELPSpeechSynthesizer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E9D48920C14C85002FDCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C24D0846EAD785A5A17204A /* libPods-VoiceBackground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4A420C14C87002FDCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4AF20C14C87002FDCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D4207BCD0779F09B3F4039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F7FB123AB825C88CF0A3D /* libPods-VoiceBackground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E9D48320C14C85002FDCE0 = {
+			isa = PBXGroup;
+			children = (
+				E6E9D48E20C14C85002FDCE0 /* VoiceBackground */,
+				E6E9D4AA20C14C87002FDCE0 /* VoiceBackgroundTests */,
+				E6E9D4B520C14C87002FDCE0 /* VoiceBackgroundUITests */,
+				E6E9D48D20C14C85002FDCE0 /* Products */,
+				F6956999F86F486A2A5C87A0 /* Pods */,
+				46D4207BCD0779F09B3F4039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E9D48D20C14C85002FDCE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9D48C20C14C85002FDCE0 /* VoiceBackground.app */,
+				E6E9D4A720C14C87002FDCE0 /* VoiceBackgroundTests.xctest */,
+				E6E9D4B220C14C87002FDCE0 /* VoiceBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E9D48E20C14C85002FDCE0 /* VoiceBackground */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9D4C420C14CB3002FDCE0 /* VoiceBackground.entitlements */,
+				E6E9D4C520C14CDD002FDCE0 /* 语音播报 */,
+				E6E9D48F20C14C85002FDCE0 /* AppDelegate.h */,
+				E6E9D49020C14C86002FDCE0 /* AppDelegate.m */,
+				E6E9D49220C14C86002FDCE0 /* ViewController.h */,
+				E6E9D49320C14C86002FDCE0 /* ViewController.m */,
+				E6E9D49520C14C86002FDCE0 /* Main.storyboard */,
+				E6E9D49B20C14C87002FDCE0 /* Assets.xcassets */,
+				E6E9D49D20C14C87002FDCE0 /* LaunchScreen.storyboard */,
+				E6E9D4A020C14C87002FDCE0 /* Info.plist */,
+				E6E9D4A120C14C87002FDCE0 /* main.m */,
+				E6E9D49820C14C86002FDCE0 /* VoiceBackground.xcdatamodeld */,
+			);
+			path = VoiceBackground;
+			sourceTree = "<group>";
+		};
+		E6E9D4AA20C14C87002FDCE0 /* VoiceBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9D4AB20C14C87002FDCE0 /* VoiceBackgroundTests.m */,
+				E6E9D4AD20C14C87002FDCE0 /* Info.plist */,
+			);
+			path = VoiceBackgroundTests;
+			sourceTree = "<group>";
+		};
+		E6E9D4B520C14C87002FDCE0 /* VoiceBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9D4B620C14C87002FDCE0 /* VoiceBackgroundUITests.m */,
+				E6E9D4B820C14C87002FDCE0 /* Info.plist */,
+			);
+			path = VoiceBackgroundUITests;
+			sourceTree = "<group>";
+		};
+		E6E9D4C520C14CDD002FDCE0 /* 语音播报 */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9D4C620C14CDD002FDCE0 /* KELPSpeechSynthesizer.m */,
+				E6E9D4C720C14CDD002FDCE0 /* KELPSpeechSynthesizer.h */,
+			);
+			path = "语音播报";
+			sourceTree = "<group>";
+		};
+		F6956999F86F486A2A5C87A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7FA152A1EE8589A83BCA0 /* Pods-VoiceBackground.debug.xcconfig */,
+				95019466DE0F7D58F83F286A /* Pods-VoiceBackground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E9D48B20C14C85002FDCE0 /* VoiceBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E9D4BB20C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackground" */;
+			buildPhases = (
+				A0CD3486AEAB9AF7C6BC8D06 /* [CP] Check Pods Manifest.lock */,
+				E6E9D48820C14C85002FDCE0 /* Sources */,
+				E6E9D48920C14C85002FDCE0 /* Frameworks */,
+				E6E9D48A20C14C85002FDCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceBackground;
+			productName = VoiceBackground;
+			productReference = E6E9D48C20C14C85002FDCE0 /* VoiceBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E9D4A620C14C87002FDCE0 /* VoiceBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E9D4BE20C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackgroundTests" */;
+			buildPhases = (
+				E6E9D4A320C14C87002FDCE0 /* Sources */,
+				E6E9D4A420C14C87002FDCE0 /* Frameworks */,
+				E6E9D4A520C14C87002FDCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E9D4A920C14C87002FDCE0 /* PBXTargetDependency */,
+			);
+			name = VoiceBackgroundTests;
+			productName = VoiceBackgroundTests;
+			productReference = E6E9D4A720C14C87002FDCE0 /* VoiceBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E9D4B120C14C87002FDCE0 /* VoiceBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E9D4C120C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackgroundUITests" */;
+			buildPhases = (
+				E6E9D4AE20C14C87002FDCE0 /* Sources */,
+				E6E9D4AF20C14C87002FDCE0 /* Frameworks */,
+				E6E9D4B020C14C87002FDCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E9D4B420C14C87002FDCE0 /* PBXTargetDependency */,
+			);
+			name = VoiceBackgroundUITests;
+			productName = VoiceBackgroundUITests;
+			productReference = E6E9D4B220C14C87002FDCE0 /* VoiceBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E9D48420C14C85002FDCE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = suz;
+				TargetAttributes = {
+					E6E9D48B20C14C85002FDCE0 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E6E9D4A620C14C87002FDCE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E6E9D48B20C14C85002FDCE0;
+					};
+					E6E9D4B120C14C87002FDCE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E6E9D48B20C14C85002FDCE0;
+					};
+				};
+			};
+			buildConfigurationList = E6E9D48720C14C85002FDCE0 /* Build configuration list for PBXProject "VoiceBackground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E9D48320C14C85002FDCE0;
+			productRefGroup = E6E9D48D20C14C85002FDCE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E9D48B20C14C85002FDCE0 /* VoiceBackground */,
+				E6E9D4A620C14C87002FDCE0 /* VoiceBackgroundTests */,
+				E6E9D4B120C14C87002FDCE0 /* VoiceBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E9D48A20C14C85002FDCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E9D49F20C14C87002FDCE0 /* LaunchScreen.storyboard in Resources */,
+				E6E9D49C20C14C87002FDCE0 /* Assets.xcassets in Resources */,
+				E6E9D49720C14C86002FDCE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4A520C14C87002FDCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4B020C14C87002FDCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0CD3486AEAB9AF7C6BC8D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceBackground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E9D48820C14C85002FDCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E9D49420C14C86002FDCE0 /* ViewController.m in Sources */,
+				E6E9D49A20C14C86002FDCE0 /* VoiceBackground.xcdatamodeld in Sources */,
+				E6E9D4A220C14C87002FDCE0 /* main.m in Sources */,
+				E6E9D49120C14C86002FDCE0 /* AppDelegate.m in Sources */,
+				E6E9D4C820C14CDD002FDCE0 /* KELPSpeechSynthesizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4A320C14C87002FDCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E9D4AC20C14C87002FDCE0 /* VoiceBackgroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9D4AE20C14C87002FDCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E9D4B720C14C87002FDCE0 /* VoiceBackgroundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E9D4A920C14C87002FDCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E9D48B20C14C85002FDCE0 /* VoiceBackground */;
+			targetProxy = E6E9D4A820C14C87002FDCE0 /* PBXContainerItemProxy */;
+		};
+		E6E9D4B420C14C87002FDCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E9D48B20C14C85002FDCE0 /* VoiceBackground */;
+			targetProxy = E6E9D4B320C14C87002FDCE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6E9D49520C14C86002FDCE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E9D49620C14C86002FDCE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6E9D49D20C14C87002FDCE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E9D49E20C14C87002FDCE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E9D4B920C14C87002FDCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6E9D4BA20C14C87002FDCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E9D4BC20C14C87002FDCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB7FA152A1EE8589A83BCA0 /* Pods-VoiceBackground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VoiceBackground/VoiceBackground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6CYFS3H5S;
+				INFOPLIST_FILE = VoiceBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdsoftware.KuaiErLiPei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E9D4BD20C14C87002FDCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95019466DE0F7D58F83F286A /* Pods-VoiceBackground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VoiceBackground/VoiceBackground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6CYFS3H5S;
+				INFOPLIST_FILE = VoiceBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdsoftware.KuaiErLiPei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6E9D4BF20C14C87002FDCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX95GQA4FA;
+				INFOPLIST_FILE = VoiceBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceBackground.app/VoiceBackground";
+			};
+			name = Debug;
+		};
+		E6E9D4C020C14C87002FDCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX95GQA4FA;
+				INFOPLIST_FILE = VoiceBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceBackground.app/VoiceBackground";
+			};
+			name = Release;
+		};
+		E6E9D4C220C14C87002FDCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX95GQA4FA;
+				INFOPLIST_FILE = VoiceBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceBackground;
+			};
+			name = Debug;
+		};
+		E6E9D4C320C14C87002FDCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX95GQA4FA;
+				INFOPLIST_FILE = VoiceBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceBackground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E9D48720C14C85002FDCE0 /* Build configuration list for PBXProject "VoiceBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E9D4B920C14C87002FDCE0 /* Debug */,
+				E6E9D4BA20C14C87002FDCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E9D4BB20C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E9D4BC20C14C87002FDCE0 /* Debug */,
+				E6E9D4BD20C14C87002FDCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E9D4BE20C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E9D4BF20C14C87002FDCE0 /* Debug */,
+				E6E9D4C020C14C87002FDCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E9D4C120C14C87002FDCE0 /* Build configuration list for PBXNativeTarget "VoiceBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E9D4C220C14C87002FDCE0 /* Debug */,
+				E6E9D4C320C14C87002FDCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6E9D49820C14C86002FDCE0 /* VoiceBackground.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6E9D49920C14C86002FDCE0 /* VoiceBackground.xcdatamodel */,
+			);
+			currentVersion = E6E9D49920C14C86002FDCE0 /* VoiceBackground.xcdatamodel */;
+			path = VoiceBackground.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6E9D48420C14C85002FDCE0 /* Project object */;
+}
