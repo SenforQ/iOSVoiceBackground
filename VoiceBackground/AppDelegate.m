@@ -48,7 +48,7 @@
     // init Push
     // notice: 2.1.5版本的SDK新增的注册方法，改成可上报IDFA，如果没有使用IDFA直接传nil
     // 如需继续使用pushConfig.plist文件声明appKey等配置内容，请依旧使用[JPUSHService setupWithOption:launchOptions]方式初始化。
-    [JPUSHService setupWithOption:launchOptions appKey:@"9f2bf9f80918f6c00018ce7c"
+    [JPUSHService setupWithOption:launchOptions appKey:@"a32fa997832bbf7a36facb22"
                           channel:nil
                  apsForProduction:0
             advertisingIdentifier:nil];
@@ -206,9 +206,6 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)receiveNotification:(NSDictionary *)userInfo{
     NSDictionary *aps = [userInfo valueForKey:@"notifyMessage"];
     NSString *content = [userInfo valueForKey:@"soundMessage"];
-
-
-    
     NSString *version = [UIDevice currentDevice].systemVersion;
 
     // 针对 10.0 以下的iOS系统进行处理
